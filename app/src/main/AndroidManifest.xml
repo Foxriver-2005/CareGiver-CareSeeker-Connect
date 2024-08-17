@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareMe"
+        tools:replace="android:icon"
+        tools:targetApi="31">
+        <activity
+            android:name=".WHealth"
+            android:exported="false" />
+        <activity
+            android:name=".BloodPressure"
+            android:exported="false" />
+        <activity
+            android:name=".PhyziHealth_BloodPressure_View"
+            android:exported="false" />
+        <activity
+            android:name=".PhyziHealth_StepCounter"
+            android:exported="false" />
+        <activity
+            android:name=".PhyziHealth_bmiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.View_All_Speciality"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_Chat_Display"
+            android:exported="false" />
+        <activity
+            android:name=".PhyziHealth"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.Presciption_CareSeekerSide"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_side_prescription_recycler"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_Payment_Appt"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_Booking_Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker_Display_CareGiver"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.Available_CareGivers"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeeker"
+            android:exported="false" />
+        <activity
+            android:name=".verifyOtp"
+            android:exported="false" />
+        <activity
+            android:name=".CareSeeker.CareSeekerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_Chat_Display"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_ChooseSlots"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_Update_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_View_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_Show_Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_Show_Previous_Prescription_Doctors"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver_Side_Previous_Prescriptions"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.PrescriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareSeeker_Details_CareGiver_Side"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiver"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".CareGiver.CareGiverLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Show_FeedBack"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_FeedBack"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.CareGiver_Add_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_ChatDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Payments"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Available_Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_CareGiver_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AskRole"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

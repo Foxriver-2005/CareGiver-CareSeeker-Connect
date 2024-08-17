@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Care Connect</string>
+    <string name="slots_booked">Slots Booked:</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="Speciality">
+        <!--        <item>Infectious Disease</item>-->
+        <!--        <item>Dermatology &amp; Venereology</item>-->
+        <!--        <item>Leprology</item>-->
+        <!--        <item>Endocrinology &amp; Diabetes</item>-->
+        <!--        <item>Thyroid"</item>-->
+        <!--        <item>Hormone</item>-->
+        <!--        <item>Immunology</item>-->
+        <!--        <item>Rheumatology</item>-->
+        <!--        <item>Neurology</item>-->
+        <!--        <item>Ophthalmology</item>-->
+        <!--        <item>Cardiac Sciences</item>-->
+        <!--        <item>Cancer Care / Oncology</item>-->
+        <!--        <item>Gastroenterology, Hepatology &amp; Endoscopy</item>-->
+        <!--        <item>Ear Nose Throat</item>-->
+
+
+        <item>Medication Management</item>
+        <item>Assistance of &amp; Daily Living (ADLs)</item>
+        <item>Nutrition &amp; Meal Preparation</item>
+        <item>Monitoring Vital Signs</item>
+        <item>Exercise &amp; Mobility</item>
+        <item>Fall Prevention &amp; Safety Supervision</item>
+        <item>End-of-Life Care</item>
+        <item>Wound Care &amp; Dressing Changes</item>
+        <item>Assistance with Medical Equipment</item>
+        <item>Cognitive Stimulation</item>
+        <item>Companionship &amp; Emotional Support</item>
+        <item>Respite Care</item>
+        <item>Medication Advocacy</item>
+        <item>Palliative Support</item>
+
+    </string-array>
+</resources>

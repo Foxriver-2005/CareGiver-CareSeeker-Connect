@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "320542412391",
+    "firebase_url": "https://careconnect-2b4ca-default-rtdb.firebaseio.com",
+    "project_id": "careconnect-2b4ca",
+    "storage_bucket": "careconnect-2b4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320542412391:android:cbf4667dbdfa6125990ec2",
+        "android_client_info": {
+          "package_name": "com.care.careme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgVhL_b6DeHL3H--8gqMvmXwvwWUdfxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320542412391:android:3e76fd7d19a4a149990ec2",
+        "android_client_info": {
+          "package_name": "com.lelei.careme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgVhL_b6DeHL3H--8gqMvmXwvwWUdfxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
