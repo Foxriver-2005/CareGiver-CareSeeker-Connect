@@ -29,3 +29,7 @@ Care Connect app is an application for connection elderly people to care givers 
 7. Admin can view all the messages btw care give and care seeker but cannot participate in the chatting process.
 
 Download the apk file and install it to get started.
+
+## WorkFlow
+![diagram (3)](https://github.com/user-attachments/assets/ab291868-9469-4b05-bd9d-cfa350235b4d)
+
